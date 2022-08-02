@@ -10,7 +10,10 @@ namespace SnakeAndLadder
     {
         public void playgame() {
             int initialPosition = 0;
-            Console.WriteLine(initialPosition);
+            Console.WriteLine("Started with "+initialPosition+" position");
+            Random obj = new Random();
+            int diceRoll = obj.Next(1, 7);
+            Console.WriteLine("Dice Roll "+diceRoll);
         }
     }
 }
