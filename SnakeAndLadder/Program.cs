@@ -6,7 +6,7 @@
 
             Console.WriteLine("welcome message");
             SnakeAndLadderProblem problem = new SnakeAndLadderProblem();
-            problem.playgame();
+            problem.PlayGame();
         }
     }
 }
